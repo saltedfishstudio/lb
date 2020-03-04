@@ -1,0 +1,229 @@
+﻿  CObject.cpp
+C:\Github\lb\LoL base\Utils.h(27,5): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Github\lb\LoL base\Utils.h(28,33): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\Utils.h(28,34): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+C:\Github\lb\LoL base\Utils.h(30,23): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+C:\Github\lb\LoL base\CObject.h(21,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(21,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(21,1): warning C4312: 'type cast': conversion from 'DWORD' to 'short *' of greater size
+C:\Github\lb\LoL base\CObject.h(25,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(25,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(25,1): warning C4312: 'type cast': conversion from 'DWORD' to 'short *' of greater size
+C:\Github\lb\LoL base\CObject.h(29,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(29,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(29,1): warning C4312: 'type cast': conversion from 'DWORD' to 'short *' of greater size
+C:\Github\lb\LoL base\CObject.h(33,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(33,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(33,1): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\CObject.h(37,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(37,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(37,1): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+C:\Github\lb\LoL base\CObject.h(41,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(41,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(41,1): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Github\lb\LoL base\CObject.h(45,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(45,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(45,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(49,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(49,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(49,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(53,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(53,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(53,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(61,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(61,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(61,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(65,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(65,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(65,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(69,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(69,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(69,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(73,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(73,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(73,1): warning C4312: 'type cast': conversion from 'DWORD' to 'bool *' of greater size
+C:\Github\lb\LoL base\CObject.h(92,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(92,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(96,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(96,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(100,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(100,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(100,1): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Github\lb\LoL base\Engine.h(13,1): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(13,1): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(14,1): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\Engine.h(16,1): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\Engine.h(19,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\Engine.h(20,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\Engine.h(21,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\Engine.h(27,1): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(27,1): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(27,1): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+C:\Github\lb\LoL base\Engine.h(31,1): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(31,1): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(31,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\Engine.h(35,1): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(35,1): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(35,1): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\Engine.h(39,1): warning C4312: 'type cast': conversion from 'DWORD' to 'CObject *' of greater size
+C:\Github\lb\LoL base\Utils.h(23,1): warning C4312: 'type cast': conversion from 'DWORD' to 'Function' of greater size
+          with
+          [
+              Function=OriginalFn
+          ]
+C:\Github\lb\LoL base\CObject.h(78): message : see reference to function template instantiation 'Function CallVirtual<OriginalFn>(PVOID,DWORD)' being compiled
+          with
+          [
+              Function=OriginalFn
+          ]
+  guicon.cpp
+C:\Github\lb\LoL base\guicon.cpp(26,15): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Github\lb\LoL base\guicon.cpp(26,21): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Github\lb\LoL base\guicon.cpp(29,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+C:\Github\lb\LoL base\guicon.cpp(42,61): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Github\lb\LoL base\guicon.cpp(38,1): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1469): message : see declaration of 'vsprintf'
+  LoL base.cpp
+C:\Github\lb\LoL base\stdafx.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Github\lb\LoL base\targetver.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  stdafx.cpp
+C:\Github\lb\LoL base\stdafx.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Github\lb\LoL base\stdafx.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Github\lb\LoL base\targetver.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  Generating Code...
+  dllmain.cpp
+C:\Github\lb\LoL base\stdafx.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Github\lb\LoL base\targetver.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Github\lb\LoL base\Utils.h(27,5): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Github\lb\LoL base\Utils.h(28,33): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\Utils.h(28,34): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+C:\Github\lb\LoL base\Utils.h(30,23): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+C:\Github\lb\LoL base\CObject.h(21,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(21,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(21,1): warning C4312: 'type cast': conversion from 'DWORD' to 'short *' of greater size
+C:\Github\lb\LoL base\CObject.h(25,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(25,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(25,1): warning C4312: 'type cast': conversion from 'DWORD' to 'short *' of greater size
+C:\Github\lb\LoL base\CObject.h(29,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(29,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(29,1): warning C4312: 'type cast': conversion from 'DWORD' to 'short *' of greater size
+C:\Github\lb\LoL base\CObject.h(33,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(33,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(33,1): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\CObject.h(37,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(37,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(37,1): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+C:\Github\lb\LoL base\CObject.h(41,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(41,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(41,1): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Github\lb\LoL base\CObject.h(45,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(45,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(45,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(49,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(49,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(49,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(53,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(53,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(53,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(61,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(61,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(61,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(65,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(65,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(65,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(69,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(69,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(69,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\CObject.h(73,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(73,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(73,1): warning C4312: 'type cast': conversion from 'DWORD' to 'bool *' of greater size
+C:\Github\lb\LoL base\CObject.h(92,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(92,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(96,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(96,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(100,1): warning C4311: 'type cast': pointer truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(100,1): warning C4302: 'type cast': truncation from 'CObject *' to 'DWORD'
+C:\Github\lb\LoL base\CObject.h(100,1): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Github\lb\LoL base\Engine.h(13,1): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(13,1): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(14,1): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\Engine.h(16,1): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\Engine.h(19,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\Engine.h(20,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\Engine.h(21,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\Engine.h(27,1): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(27,1): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(27,1): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+C:\Github\lb\LoL base\Engine.h(31,1): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(31,1): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(31,1): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+C:\Github\lb\LoL base\Engine.h(35,1): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(35,1): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\Engine.h(35,1): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\Engine.h(39,1): warning C4312: 'type cast': conversion from 'DWORD' to 'CObject *' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(57,44): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(57,44): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(60,6): warning C4312: 'type cast': conversion from 'DWORD' to 'WORD *' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(61,1): warning C4312: 'type cast': conversion from 'DWORD' to 'WORD *' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(62,1): warning C4312: 'type cast': conversion from 'DWORD' to 'WORD *' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(73,50): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(83,42): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(83,42): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(83,56): warning C4312: 'type cast': conversion from 'DWORD' to 'CObjectManager *' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(85,57): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(85,57): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(85,70): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnPrintChat' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(86,63): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(86,63): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(86,79): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsTargetable' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(87,53): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(87,53): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(87,64): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsAlive' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(89,55): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(89,55): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(89,67): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsMinion' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(90,55): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(90,55): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(90,67): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsTurret' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(91,51): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(91,51): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(91,61): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsHero' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(92,57): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(92,57): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(92,70): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsMissile' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(93,53): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(93,53): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(93,64): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsNexus' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(94,61): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(94,61): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(94,72): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsInhibitor' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(95,57): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(95,57): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(95,67): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIsTroyEnt' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(98,79): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(98,79): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(98,93): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnIssueOrder' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(99,79): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(99,79): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(99,93): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnDrawCircle' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(101,95): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(101,95): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(101,117): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnGetAttackCastDelay' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(102,87): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(102,87): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Github\lb\LoL base\dllmain.cpp(102,105): warning C4312: 'type cast': conversion from 'DWORD' to 'Typedefs::fnGetAttackDelay' of greater size
+C:\Github\lb\LoL base\dllmain.cpp(104,82): warning C4312: 'type cast': conversion from 'DWORD' to 'PBYTE' of greater size
+C:\Github\lb\LoL base\Utils.h(23,1): warning C4312: 'type cast': conversion from 'DWORD' to 'Function' of greater size
+          with
+          [
+              Function=OriginalFn
+          ]
+C:\Github\lb\LoL base\CObject.h(78): message : see reference to function template instantiation 'Function CallVirtual<OriginalFn>(PVOID,DWORD)' being compiled
+          with
+          [
+              Function=OriginalFn
+          ]
+dllmain.obj : error LNK2019: unresolved external symbol DetourFunction referenced in function "void __cdecl Start(void)" (?Start@@YAXXZ)
+detours.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Github\lb\x64\Debug\LoL base.dll : fatal error LNK1120: 1 unresolved externals
