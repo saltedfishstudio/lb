@@ -24,17 +24,21 @@ template< typename Function > Function CallVirtual(PVOID Base, DWORD Index)
 }
 
 inline char* GetStr(DWORD offset) {
-	if (*(int*)(offset + 0x10) > 15)
-		return (char*)(*(DWORD*)offset);
+	if (*reinterpret_cast<int*>(offset + 0x10) > 15)
+	{
+		return reinterpret_cast<char*>(*reinterpret_cast<DWORD*>(offset));
+	}
 	else
-		return (char*)offset;
+	{
+		return reinterpret_cast<char*>(offset);
+	}
 }
 
-inline float GetEffectiveHP(float Armor, float HP) {
-	return HP * (100.0f + Armor) / 100.0f;
+inline float GetEffectiveHP(const float armor, const float hp) {
+	return hp * (100.0f + armor) / 100.0f;
 }
 
-inline int createRGB(int r, int g, int b)
+inline int CONVERT_RGB(int r, int g, int b)
 {
 	return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
 }

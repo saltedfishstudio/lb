@@ -1,0 +1,9 @@
+﻿LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  0 of 243 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+detours.lib(detours.obj) : error LNK2026: module unsafe for SAFESEH image.
+detours.lib(disasm.obj) : error LNK2026: module unsafe for SAFESEH image.
+C:\Github\lb\Release\lb.dll : fatal error LNK1281: Unable to generate SAFESEH image.

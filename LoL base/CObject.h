@@ -15,42 +15,34 @@ public:
 
 	bool IsInhibitor();
 	bool IsTroyEnt();
-	bool IsTargetable();
+	bool CanBeTarget();
 
 	short GetIndex() {
-		return *(short*)((DWORD)this + oObjIndex);
-	}
-
-	short GetTargetIndex() {
-		return *(short*)((DWORD)this + oObjTargetID);
-	}
-
-	short GetSourceIndex() {
-		return *(short*)((DWORD)this + oObjSourceIndex);
+		return *reinterpret_cast<short*>(reinterpret_cast<DWORD>(this) + oObjIndex);
 	}
 
 	DWORD GetNetworkID() {
-		return *(DWORD*)((DWORD)this + oObjNetworkID);
+		return *reinterpret_cast<DWORD*>(reinterpret_cast<DWORD>(this) + oObjNetworkID);
 	}
 
 	Vector GetPos() {
-		return *(Vector*)((DWORD)this + oObjPos);
+		return *reinterpret_cast<Vector*>(reinterpret_cast<DWORD>(this) + oObjPos);
 	}
 
 	int GetLevel() {
-		return *(int*)((DWORD)this + oObjLevel);
+		return *reinterpret_cast<int*>(reinterpret_cast<DWORD>(this) + oObjLevel);
 	}
 
 	float GetHealth() {
-		return *(float*)((DWORD)this + oObjHealth);
+		return *reinterpret_cast<float*>(reinterpret_cast<DWORD>(this) + oObjHealth);
 	}
 
 	float GetBaseAttackDamage() {
-		return *(float*)((DWORD)this + oObjBaseAtk);
+		return *reinterpret_cast<float*>(reinterpret_cast<DWORD>(this) + oObjBaseAtk);
 	}
 
 	float GetBonusAttackDamage() {
-		return *(float*)((DWORD)this + oObjBonusAtk);
+		return *reinterpret_cast<float*>(reinterpret_cast<DWORD>(this) + oObjBonusAtk);
 	}
 
 	float GetTotalAttackDamage() {
@@ -58,19 +50,19 @@ public:
 	}
 
 	float GetArmor() {
-		return *(float*)((DWORD)this + oObjArmor);
+		return *reinterpret_cast<float*>(reinterpret_cast<DWORD>(this) + oObjArmor);
 	}
 
 	float GetMaxHealth() {
-		return *(float*)((DWORD)this + oObjHealth + 0x10);
+		return *reinterpret_cast<float*>(reinterpret_cast<DWORD>(this) + oObjHealth + 0x10);
 	}
 
 	float GetAttackRange() {
-		return *(float*)((DWORD)this + oObjAtkRange);
+		return *reinterpret_cast<float*>(reinterpret_cast<DWORD>(this) + oObjAtkRange);
 	}
 
 	bool IsVisible() {
-		return *(bool*)((DWORD)this + oObjVisibility);
+		return *reinterpret_cast<bool*>(reinterpret_cast<DWORD>(this) + oObjVisibility);
 	}
 
 	float GetBoundingRadius() {
@@ -89,14 +81,14 @@ public:
 	}
 
 	char* GetName() {
-		return GetStr((DWORD)this + oObjName);
+		return GetStr(reinterpret_cast<DWORD>(this) + oObjName);
 	}
 
 	char* GetChampionName() {
-		return GetStr((DWORD)this + oObjChampionName);
+		return GetStr(reinterpret_cast<DWORD>(this) + oObjChampionName);
 	}
 
 	int GetTeam() {
-		return *(int*)((DWORD)this + oObjTeam);
+		return *reinterpret_cast<int*>(reinterpret_cast<DWORD>(this) + oObjTeam);
 	}
 };

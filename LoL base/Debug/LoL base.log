@@ -1,6 +1,4 @@
-﻿  dllmain.cpp
-C:\Github\lb\LoL base\stdafx.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-C:\Github\lb\LoL base\targetver.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-C:\Github\lb\LoL base\dllmain.cpp(113,1): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h(506): message : see declaration of 'localtime'
-  LoL base.vcxproj -> C:\Github\lb\Debug\LoL base.dll
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LoL base.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  CObject.cpp
+  dllmain.cpp
+  LoL base.vcxproj -> C:\Github\lb\Debug\lb.dll

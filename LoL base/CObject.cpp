@@ -22,7 +22,7 @@ bool CObject::IsMissile() {
 	return Functions.IsMissile(this);
 }
 
-bool CObject::IsTargetable() {
+bool CObject::CanBeTarget() {
 	return Functions.IsTargetable(this);
 }
 
