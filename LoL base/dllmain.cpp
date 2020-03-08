@@ -105,20 +105,17 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 	}
 
 	if (ObjManager) {
-		auto obj0 = Engine::GetObjectByID(0);
-		if(obj0)
+
+		if(me->IsHero())
 		{
-			//if(obj0->IsHero())
-			//{
-			//	
-			//}
+			
 		}
-		
-		for (int i = 0; i < 10; i++) {
+
+		for (int i = 0; i < 10000; i++) {
 			CObject* obj = Engine::GetObjectByID(i);
 			if (obj) {
 
-				//if (obj->IsHero()) 
+				if (obj->IsHero()) // <- Crashed here
 				{
 					//if(!obj -> IsAlive())
 					//{
@@ -135,10 +132,10 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 					//	continue;
 					//}
 					
-					//if (obj->IsAlive() && obj->IsVisible() && obj->GetTeam() != me->GetTeam()) 
+					if (obj->IsAlive() && obj->IsVisible() && obj->GetTeam() != me->GetTeam()) 
 					{
-						//auto color = createRGB(255, 0, 0);
-						//Functions.DrawCircle(&obj->GetPos(), obj->GetAttackRange() + obj->GetBoundingRadius(), &color, 0, 0.0f, 0, 0.5f); //Draw range
+						auto color = CONVERT_RGB(255, 0, 0);
+						Functions.DrawCircle(&obj->GetPos(), obj->GetAttackRange() + obj->GetBoundingRadius(), &color, 0, 0.0f, 0, 0.5f); //Draw range
 					}
 				}
 			}
