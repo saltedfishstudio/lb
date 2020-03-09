@@ -101,21 +101,22 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 					Engine::MoveTo(&Engine::GetMouseWorldPosition());
 				}
 			}
+
 		}
 	}
 
 	if (ObjManager) {
 
-		if(me->IsHero())
-		{
-			
-		}
+		//if(me->IsHero())
+		//{
+		//	
+		//}
 
 		for (int i = 0; i < 10000; i++) {
 			CObject* obj = Engine::GetObjectByID(i);
 			if (obj) {
 
-				if (obj->IsHero()) // <- Crashed here
+				//if (obj->IsHero()) // <- Crashed here
 				{
 					//if(!obj -> IsAlive())
 					//{
@@ -132,11 +133,11 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 					//	continue;
 					//}
 					
-					if (obj->IsAlive() && obj->IsVisible() && obj->GetTeam() != me->GetTeam()) 
-					{
-						auto color = CONVERT_RGB(255, 0, 0);
-						Functions.DrawCircle(&obj->GetPos(), obj->GetAttackRange() + obj->GetBoundingRadius(), &color, 0, 0.0f, 0, 0.5f); //Draw range
-					}
+					//if (obj->IsAlive() && obj->IsVisible() && obj->GetTeam() != me->GetTeam()) 
+					//{
+					//	auto color = CONVERT_RGB(255, 0, 0);
+					//	Functions.DrawCircle(&obj->GetPos(), obj->GetAttackRange() + obj->GetBoundingRadius(), &color, 0, 0.0f, 0, 0.5f); //Draw range
+					//}
 				}
 			}
 		}

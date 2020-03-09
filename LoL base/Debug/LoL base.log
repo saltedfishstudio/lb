@@ -1,4 +1,3 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LoL base.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  CObject.cpp
   dllmain.cpp
   LoL base.vcxproj -> C:\Github\lb\Debug\lb.dll
