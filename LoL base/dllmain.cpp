@@ -30,8 +30,7 @@ clock_t lastmove = NULL;
 
 // SWITCHES
 bool bDrawAttackRange = false;
-
-int spellIndex = 1;
+bool tryOnce = false;
 
 HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pDestRect, HWND hDestWindow, CONST RGNDATA *pDirtyRegion) {
 
@@ -55,18 +54,20 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 
 				auto mouseWorldPos = Engine::GetMouseWorldPosition();
 
-				//Vector screenPos;
-				//Functions.WorldToScreen(&mouseWorldPos, &screenPos);
-
-				//Functions.DrawCircle(&screenPos, 500, &color, 0, 0.0f, 0, 0.5f);
+				Vector screenPos;
+				Functions.WorldToScreen(&mouseWorldPos, &screenPos);
+				
+				Functions.DrawCircle(&mouseWorldPos, 100, &color, 0, 0.0f, 0, 0.5f);
 			}
 
 			if(GetAsyncKeyState(VK_INSERT))
 			{
-				Engine::CastSpellPos(spellIndex, me->GetPos());
-				spellIndex = (spellIndex + 1) % 4;
-
-				Sleep(100);
+				if(!tryOnce)
+				{
+					Engine::CastSpellPos(CSpellBook::SpellSlotId::Q, Engine::GetMouseWorldPosition());
+					tryOnce = true;
+				}
+				
 				//auto minions = ObjManager->GetMinions(me->GetTeam());
 			}
 
@@ -77,43 +78,53 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 					Engine::MoveTo(&Engine::GetMouseWorldPosition());
 				}
 			}
+
+			// Crasher
+			if(GetAsyncKeyState(VK_DELETE))
+			{
+				auto obj = Engine::GetObjectByID(100);
+				if(obj->IsAlive())
+				{
+					
+				}
+			}
 		}
 	}
 
 	
 
-	if (ObjManager) {
-		for (int i = 0; i < 10000; i++) {
-			CObject* obj = Engine::GetObjectByID(i);
-			if (obj) {
+	//if (ObjManager) {
+	//	for (int i = 0; i < 10000; i++) {
+	//		CObject* obj = Engine::GetObjectByID(i);
+	//		if (obj) {
 
-				//AllocConsole();
-				
-				//cout << obj->GetName() << endl;
-				
-				//if (obj->IsHero()) // <- Crashed here
-				{
-					//if(!obj -> IsAlive())
-					//{
-					//	continue;
-					//}
-					//if(!obj -> IsVisible())
-					//{
-					//	continue;
-					//}
-					//if(obj->GetTeam() == me->GetTeam())
-					//{
-					//	continue;
-					//}
-					//if (obj->IsAlive() && obj->IsVisible() && obj->GetTeam() != me->GetTeam()) 
-					//{
-					//	auto color = CONVERT_RGB(255, 0, 0);
-					//	Functions.DrawCircle(&obj->GetPos(), obj->GetAttackRange() + obj->GetBoundingRadius(), &color, 0, 0.0f, 0, 0.5f); //Draw range
-					//}
-				}
-			}
-		}
-	}
+	//			//AllocConsole();
+	//			
+	//			//cout << obj->GetName() << endl;
+	//			
+	//			//if (obj->IsHero()) // <- Crashed here
+	//			{
+	//				//if(!obj -> IsAlive())
+	//				//{
+	//				//	continue;
+	//				//}
+	//				//if(!obj -> IsVisible())
+	//				//{
+	//				//	continue;
+	//				//}
+	//				//if(obj->GetTeam() == me->GetTeam())
+	//				//{
+	//				//	continue;
+	//				//}
+	//				//if (obj->IsAlive() && obj->IsVisible() && obj->GetTeam() != me->GetTeam()) 
+	//				//{
+	//				//	auto color = CONVERT_RGB(255, 0, 0);
+	//				//	Functions.DrawCircle(&obj->GetPos(), obj->GetAttackRange() + obj->GetBoundingRadius(), &color, 0, 0.0f, 0, 0.5f); //Draw range
+	//				//}
+	//			}
+	//		}
+	//	}
+	//}
 	
 	return Original_Present(Device, pSrcRect, pDestRect, hDestWindow, pDirtyRegion);
 }
@@ -124,10 +135,10 @@ void __stdcall Start() {
 	{
 		Sleep(1);
 	}
-	
+
 	ObjManager = (CObjectManager*)(baseAddr + oObjManager);
 	Functions.IsAlive = (Typedefs::fnIsAlive)(baseAddr + oIsAlive);
-	//Functions.PrintChat = (Typedefs::fnPrintChat)(baseAddr + oPrintChat);
+	Functions.PrintChat = (Typedefs::fnPrintChat)(baseAddr + oPrintChat);
 	
 	Functions.IsTargetable = (Typedefs::fnIsTargetable)(baseAddr + oIsTargetable);
 
@@ -139,16 +150,18 @@ void __stdcall Start() {
 	Functions.IsInhibitor = (Typedefs::fnIsInhibitor)(baseAddr + oIsInhib);
 	
 	//Functions.IsTroyEnt = (Typedefs::fnIsTroyEnt)(baseAddr + oIsTroy);
+	
 	Functions.CastSpell = (Typedefs::fnCastSpell)((DWORD)GetModuleHandle(NULL) + oCastSpell);
-	//
+	Functions.GetSpellState = (Typedefs::fnGetSpellState)((DWORD)GetModuleHandle(NULL) + oGetSpellState);
+	
 	Functions.IssueOrder = (Typedefs::fnIssueOrder)((DWORD)GetModuleHandle(NULL) + oIssueOrder);
 	Functions.DrawCircle = (Typedefs::fnDrawCircle)((DWORD)GetModuleHandle(NULL) + oDrawCircle);
-
+	
 	Functions.GetAttackCastDelay = (Typedefs::fnGetAttackCastDelay)((DWORD)GetModuleHandle(NULL) + oGetAttackCastDelay);
 	Functions.GetAttackDelay = (Typedefs::fnGetAttackDelay)((DWORD)GetModuleHandle(NULL) + oGetAttackDelay);
 
-	Functions.WorldToScreen = (Typedefs::WorldToScreen)(baseAddr + oW2S);
-
+	Functions.WorldToScreen = (Typedefs::WorldToScreen)((DWORD)GetModuleHandle(NULL) + oW2S);
+	
 	Original_Present = (Prototype_Present)DetourFunction((PBYTE)GetDeviceAddress(17), (PBYTE)Hooked_Present);
 }
 

@@ -63,4 +63,6 @@ public:
 	static void MoveTo(Vector* position) {
 		Functions.IssueOrder(GetLocalObject(), 2, position, NULL, false, false, false);
 	}
+
+	static void Chat(const char* message, int color);
 };

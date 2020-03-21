@@ -156,6 +156,7 @@
     <ClInclude Include="guicon.h" />
     <ClInclude Include="Hooks.h" />
     <ClInclude Include="Offsets.h" />
+    <ClInclude Include="SpellInfo.h" />
     <ClInclude Include="SpellSlot.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -183,6 +184,7 @@
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="guicon.cpp" />
     <ClCompile Include="LoL base.cpp" />
+    <ClCompile Include="SpellInfo.cpp" />
     <ClCompile Include="SpellSlot.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>

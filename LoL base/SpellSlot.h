@@ -1,13 +1,15 @@
 #pragma once
-#include <apiquery2.h>
+
+#define O_SS_TIME_USED 0x28
 
 class SpellSlot
 {
 public:
 
-	bool IsReady();
-	
 	int GetLevel();
 	float GetTime();
+
+	float GetTimeUsed();
+	float GetCooldown();
 };
 
