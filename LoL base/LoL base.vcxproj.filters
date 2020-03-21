@@ -31,6 +31,15 @@
     <Filter Include="Source Files\Objects">
       <UniqueIdentifier>{465ade86-a295-40ee-9231-ef935f9fdfc5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Spell">
+      <UniqueIdentifier>{155150f0-c95f-4242-ba4c-60acf5946518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{79ec332d-1305-4c9f-8e53-7e2738a899ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Spell">
+      <UniqueIdentifier>{6f195338-2a01-4bbb-a905-cf13ddef7f6f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -66,6 +75,15 @@
     <ClInclude Include="Hooks.h">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="CSpellBook.h">
+      <Filter>Header Files\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpellEntry.h">
+      <Filter>Header Files\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellSlot.h">
+      <Filter>Header Files\Spell</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LoL base.cpp">
@@ -82,6 +100,18 @@
     </ClCompile>
     <ClCompile Include="CObject.cpp">
       <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpellBook.cpp">
+      <Filter>Source Files\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpellEntry.cpp">
+      <Filter>Source Files\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellSlot.cpp">
+      <Filter>Source Files\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

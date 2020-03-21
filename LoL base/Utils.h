@@ -38,7 +38,7 @@ inline float GetEffectiveHP(const float armor, const float hp) {
 	return hp * (100.0f + armor) / 100.0f;
 }
 
-inline int CONVERT_RGB(int r, int g, int b)
+inline int GetColor(int r, int g, int b)
 {
 	return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
 }

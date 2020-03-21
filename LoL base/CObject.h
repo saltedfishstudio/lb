@@ -3,6 +3,7 @@
 #include "Offsets.h"
 #include "Vector.h"
 #include "Utils.h"
+#include "CSpellBook.h"
 
 class CObject {
 public:
@@ -16,6 +17,8 @@ public:
 	bool IsInhibitor();
 	bool IsTroyEnt();
 	bool CanBeTarget();
+
+	static CSpellBook* GetSpellBook();
 
 	short GetIndex() {
 		return *reinterpret_cast<short*>(reinterpret_cast<DWORD>(this) + oObjIndex);
@@ -91,4 +94,6 @@ public:
 	int GetTeam() {
 		return *reinterpret_cast<int*>(reinterpret_cast<DWORD>(this) + oObjTeam);
 	}
+
+	
 };

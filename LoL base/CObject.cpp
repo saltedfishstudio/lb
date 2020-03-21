@@ -26,6 +26,11 @@ bool CObject::CanBeTarget() {
 	return Functions.IsTargetable(this);
 }
 
+CSpellBook* CObject::GetSpellBook()
+{
+	return reinterpret_cast<CSpellBook*>(reinterpret_cast<DWORD*>(me) + oObjSpellBook);
+}
+
 bool CObject::IsNexus() {
 	return Functions.IsNexus(this);
 }

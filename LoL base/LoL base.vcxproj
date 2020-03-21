@@ -150,10 +150,13 @@
   <ItemGroup>
     <ClInclude Include="CObject.h" />
     <ClInclude Include="CObjectManager.h" />
+    <ClInclude Include="CSpellBook.h" />
+    <ClInclude Include="CSpellEntry.h" />
     <ClInclude Include="Engine.h" />
     <ClInclude Include="guicon.h" />
     <ClInclude Include="Hooks.h" />
     <ClInclude Include="Offsets.h" />
+    <ClInclude Include="SpellSlot.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Utils.h" />
@@ -161,6 +164,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="CSpellBook.cpp" />
+    <ClCompile Include="CSpellEntry.cpp" />
     <ClCompile Include="dllmain.cpp">
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -175,8 +180,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Engine.cpp" />
     <ClCompile Include="guicon.cpp" />
     <ClCompile Include="LoL base.cpp" />
+    <ClCompile Include="SpellSlot.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

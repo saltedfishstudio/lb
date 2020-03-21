@@ -10,6 +10,7 @@
 #define WIN32_LEAN_AND_MEAN             // Remova itens raramente utilizados dos cabe?lhos Windows
 // Arquivos de Cabe?lho Windows:
 #include <windows.h>
+#include "Windows.h"
 
 
 
